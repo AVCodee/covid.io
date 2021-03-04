@@ -1,2 +1,7 @@
-﻿body {
+﻿.placeholder {
+    background-color: red;
+}
+
+.anotherClass{
+    background-color: lightseagreen;
 }
