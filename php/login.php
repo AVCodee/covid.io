@@ -1,4 +1,18 @@
-﻿<!DOCTYPE html>
+
+
+<?php
+
+$host="localhost";
+$user="root";
+$password="";
+$db="demo";
+
+
+?>
+
+
+
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -9,7 +23,7 @@
 <body>
             <div class="loginbox">
                 <h1>Covid.io Login</h1>
-                <form>
+                <form method="POST" action="#">
                     <p>Username</p>
                     <input type="text" name="" placeholder="Enter Username" />
                     <p>Password</p>
