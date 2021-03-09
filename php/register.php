@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+
+
+
 
 <html>
 <head>
@@ -8,8 +10,8 @@
 </head>
 <body>
     <div class="registerbox">
-        <h1>Covid.io Registration</h1>
-        <form>
+        <h2>Covid.io Registration</h2>
+        <form action="">
             <p>Username</p>
             <input type="text" name="" placeholder="Enter Username" />
             <p>Password</p>
