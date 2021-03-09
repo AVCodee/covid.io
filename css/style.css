@@ -1,4 +1,6 @@
-﻿.placeholder {
+
+@import"logostyle.css";
+.placeholder {
     background-color: red;
 }
 
@@ -12,6 +14,14 @@
      text-align:center;
      text-decoration: none;
  }
+ .logo{
+    width:500px;
+    height:450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
 
  .header__links{
      text-decoration: none;
