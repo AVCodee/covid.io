@@ -5,3 +5,50 @@
 .anotherClass{
     background-color: lightseagreen;
 }
+
+ ul{
+     color:orange;
+     background-color: white;
+     text-align:center;
+     text-decoration: none;
+ }
+
+ .header__links{
+     text-decoration: none;
+     color:purple;
+ }
+ .header__link1{
+     text-decoration: none;
+     color:orange;
+     font-size: 20px;
+     font-weight: 400;
+     font-style: normal;
+     margin-right: 40px;
+ }
+ .header__link2{
+    text-decoration: none;
+    color:orange;
+    font-size:20px;
+    font-weight: 400;
+    font-style: normal;
+}
+.header__link3{
+    text-decoration: none;
+    font-size:20px;
+    color:orange;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 40px;
+}
+.container{
+    color:hsl(233,26%,24%);
+    font-size: 30px;
+    margin: 0px;
+    background-color: hsl(190,96%,48%);
+}
+.title1{
+    color:white;
+    background-color: orange;
+    font-size: 50px;
+    margin:0px;
+}
