@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 
 <html>
@@ -24,8 +28,16 @@
             <ul>
                 <a href="index.php"class="header__link1">Home</a></li>
                 <a href="about.php"class="header__link2">About</a></li>
-                <a href="login.php"class="header__link3">Login</a></li>
-                <a href="register.php"class="header__link3">Register</a></li>
+                <?php
+                    if (isset($_SESSION["useruid"])) {
+                        echo "<a href='profile.php'class='header__link3'>My Profile</a></li>";
+                        echo "<a href='logout.php'class='header__link3'>Log Out</a></li>";
+                    }
+                    else {
+                        echo "<a href='login.php'class='header__link3'>Login</a></li>";
+                        echo "<a href='register.php'class='header__link3'>Register</a></li>";
+                    }
+                ?>
             </ul>
         </nav>
         <div class="wrapper">
