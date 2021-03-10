@@ -22,10 +22,10 @@
                 <img src ="img/logo1.png"class="logo" alt="Covid.io"/>
             </a>
             <ul>
-                <a href="..index.php"class="header__link1">Home</a></li>
-                <a href="html/about.html"class="header__link2">About</a></li>
-                <a href="php/login.php"class="header__link3">Login</a></li>
-                <a href="php/register.php"class="header__link3">Register</a></li>
+                <a href="index.php"class="header__link1">Home</a></li>
+                <a href="about.php"class="header__link2">About</a></li>
+                <a href="login.php"class="header__link3">Login</a></li>
+                <a href="register.php"class="header__link3">Register</a></li>
             </ul>
         </nav>
         <div class="wrapper">
