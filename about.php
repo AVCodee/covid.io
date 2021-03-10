@@ -7,6 +7,6 @@
     <title>About Covid.io</title>
 </head>
 <body>
-    <h2>This is what we are about...</h2>
+    <h2>Whatever you want to say.</h2>
 </body>
 </html>
