@@ -17,7 +17,6 @@
 <body>
     <header class ="header">
         <div class="title1">
-            <h1>Covid.io</h1>
         </div>
         <nav>
             <a href="/">
@@ -27,6 +26,7 @@
                 <a href="index.html"class="header__link1">Home</a></li>
                 <a href="html/about.html"class="header__link2">About</a></li>
                 <a href="php/login.php"class="header__link3">Login</a></li>
+                <a href="php/register.php"class="header__link3">Register</a></li>
             </ul>
         </nav>
     </header>

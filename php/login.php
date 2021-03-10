@@ -17,6 +17,18 @@
         </form>
         </div>
         <a href="register.php"class="register">Don't have an account? Sign up!</a>
+
+        <?php
+        if (isset($_GET["error"])) {
+            if ($_GET["error"] == "emptyinput"){
+                echo "<p>Fill in all fields!</p>";
+            }
+            else if ($_GET["error"] == "wronglogin"){
+                echo "<p>Incorrect Login Information</p>";
+            }
+            
+        }
+        ?>
     </section>
 </body>
 
