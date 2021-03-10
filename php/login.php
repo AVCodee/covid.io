@@ -8,7 +8,7 @@
 </head>
 <body>
     <section class="registerbox">
-        <h2>Covid.io Registration</h2>
+        <h2>Covid.io Login</h2>
         <div class="registerbox">
         <form action="../includes/login.inc.php" method="post">
             <input type="text" name="name" placeholder="Username/Email" />
@@ -16,7 +16,7 @@
             <button type="submit" name="submit">Log In</button>
         </form>
         </div>
-        <a href="login.php">Already have an account? Log in.</a>
+        <a href="register.php">Don't have an account? Sign up!</a>
     </section>
 </body>
 
