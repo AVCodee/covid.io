@@ -12,7 +12,7 @@
     <section class="registerbox">
         <h2>Covid.io Registration</h2>
         <div class="registerbox">
-        <form action="../includes/register.inc.php" method="post">
+        <form action="includes/register.inc.php" method="post">
             <input type="text" name="name" placeholder="Full Name" />
             <input type="text" name="email" placeholder="Enter a Valid Email" />
             <input type="text" name="uid" placeholder="Username" />
