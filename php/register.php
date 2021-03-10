@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Register</title>
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="/css/login&registerstyle.css" />
 </head>
 <body>
     <section class="registerbox">
@@ -19,7 +19,7 @@
             <button type="submit" name="submit">Sign Up</button>
         </form>
         </div>
-        <a href="login.php">Already have an account? Log in.</a>
+        <a href="login.php"class="alreadyhave">Already have an account? Log in.</a>
         <?php
         if (isset($_GET["error"])) {
             if ($_GET["error"] == "emptyinput"){
