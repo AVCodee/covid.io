@@ -1,6 +1,5 @@
 <?php
 
-
 $serverName = "sql304.epizy.com";
 $dBUsername = "epiz_28122589";
 $dBPassword = "AD8MnZcTbN82T";
