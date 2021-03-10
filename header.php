@@ -31,7 +31,7 @@
                 <?php
                     if (isset($_SESSION["useruid"])) {
                         echo "<a href='profile.php'class='header__link3'>My Profile</a></li>";
-                        echo "<a href='logout.php'class='header__link3'>Log Out</a></li>";
+                        echo "<a href='includes/logout.inc.php'class='header__link3'>Log Out</a></li>";
                     }
                     else {
                         echo "<a href='login.php'class='header__link3'>Login</a></li>";
