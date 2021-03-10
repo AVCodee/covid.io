@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Register</title>
-    <link rel="stylesheet" type="text/css" href="/css/login&registerstyle.css" />
+    <link rel="stylesheet" type="text/css" href="css/login&registerstyle.css" />
 </head>
 <body>
     <section class="registerbox">
@@ -49,9 +49,6 @@
 
     </section>
 </body>
-
-
-
 
 
 </html>
