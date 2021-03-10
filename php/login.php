@@ -1,38 +1,24 @@
-
-
-<?php
-
-$host="localhost";
-$user="root";
-$password="";
-$db="demo";
-
-
-?>
-
-
-
 <!DOCTYPE html>
 
 <html>
 <head>
     <meta charset="utf-8" />
     <title>Login</title>
-        <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
 </head>
 <body>
-            <div class="loginbox">
-                <h1>Covid.io Login</h1>
-                <form method="POST" action="#">
-                    <p>Username</p>
-                    <input type="text" name="" placeholder="Enter Username" />
-                    <p>Password</p>
-                    <input type="password" name="" placeholder="Enter Password" />
-                    <input type="submit" name="" value="Login" />
-                </form>
-                    <a href="#">Lost your password?</a><br />
-                    <a href="register.html">Don't have an account? Sign up.</a>
-                
-            </div>
-        </body>
+    <section class="registerbox">
+        <h2>Covid.io Registration</h2>
+        <div class="registerbox">
+        <form action="../includes/login.inc.php" method="post">
+            <input type="text" name="name" placeholder="Username/Email" />
+            <input type="password" name="pwd" placeholder="Password" />
+            <button type="submit" name="submit">Log In</button>
+        </form>
+        </div>
+        <a href="login.php">Already have an account? Log in.</a>
+    </section>
+</body>
+
+
 </html>
