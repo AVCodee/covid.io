@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/login&registerstyle.css" />
 </head>
 <body>
     <section class="registerbox">
@@ -16,7 +16,7 @@
             <button type="submit" name="submit">Log In</button>
         </form>
         </div>
-        <a href="register.php">Don't have an account? Sign up!</a>
+        <a href="register.php"class="register">Don't have an account? Sign up!</a>
     </section>
 </body>
 
