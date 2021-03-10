@@ -1,0 +1,53 @@
+form {
+  border: 3px solid #f1f1f1;
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+form {border: 3px solid hsl(37,100%,50%);}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: hsl(37,100%,50%);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+button:hover {
+  opacity: 0.8;
+}
+h2{
+  color:hsl(37,100%,50%);
+  font-size:50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+}
+.register{
+  text-decoration: none;
+  color: hsl(37,100%,50%);
+  padding: 5px 10px;
+  margin:8px,0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  vertical-align: bottom;
+}
+.alreadyhave{
+  text-decoration: none;
+  color: hsl(37,100%,50%);
+  padding: 5px 10px;
+  margin:8px,0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  vertical-align: bottom;
+}
