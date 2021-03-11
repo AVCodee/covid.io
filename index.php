@@ -18,7 +18,7 @@
             ?>
             
             
-            <h1>Insert information here about main site(Slogan)</h1>
+            <h1>Covid.io is the top source for Covid- 19 information</h1>
             <p>Insert more Information here.</p>
 
         </div>
