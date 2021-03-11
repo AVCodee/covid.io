@@ -7,6 +7,6 @@
     <title>About Covid.io</title>
 </head>
 <body>
-    <h2>Whatever you want to say.</h2>
+    <h2>A small group of software developers that want to help spread awareness of the current health crisis. Covid-19 Live updates and reports of cases.</h2>
 </body>
 </html>
