@@ -22,6 +22,7 @@
         </form>
         </div>
         <a href="login.php"class="alreadyhave">Already have an account? Log in.</a>
+        <a href="reset-password.php">Forgot your password? </a>
         <?php
         if (isset($_GET["error"])) {
             if ($_GET["error"] == "emptyinput"){
