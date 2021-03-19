@@ -1,5 +1,19 @@
 <?php
 
+use PHPMailer\PHPMailer;
+use PHPMailer\SMTP;
+$mail = new PHPMailer();
+$mail->isSMTP();
+$mail->SMTPDebug = SMTP::DEBUG_SERVER;
+$mail->Host = 'smtp.gmail.com';
+$mail->Port = 587;
+$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+$mail->SMTPAuth = true;
+$mail->Username = 'covidiopwdreset@gmail.com';
+$mail->Password = 'f6%Ae)h975cmxe-';
+
+
+
 if (isset($POST[reset-request-submit])){
 
     $selector = bin2hex(random_bytes(8));
@@ -38,12 +52,30 @@ if (isset($POST[reset-request-submit])){
     mysqli_stmt_close($stmt);
     mysqli_close();
 
-    $to = $userEmail;
-    $subject = 'Reset Your Password for Covid.io';
-    $message = '<p>You are receiving this email because you requested a Password Reset on Covid.io. The link to reset your password is below. If you did not make this request, you can ignore this email</p>';
-    $message .= '<p>Here is your password reset link: </br>';
-    $message .= '<a href="' . $url . '">' . $url . '</a></p>';
+    
 
+    $to = $userEmail;
+    $mail->setFrom('covidiopwdreset@gmail.com', 'Covid Password-Reset');
+    $mail->addReplyTo('covidiopwdreset@gmail.com');
+    $mail->addAddress($to, '');
+    $mail->Subject = 'Reset Your Password for Covid.io';
+    $mail->AltBody = '<p>You are receiving this email because you requested a Password Reset on Covid.io. The link to reset your password is below. If you did not make this request, you can ignore this email</p>';
+    $mail->AltBody .= '<p>Here is your password reset link: </br>';
+    $mail->AltBody .= '<a href="' . $url . '">' . $url . '</a></p>';
+
+    $headers = "From: Covid.io <covidiopwdreset@gmail.com>\r\n";
+    $headers .= "Reply-To: covidiopwdreset@gmail.com\r\n";
+    $headers .= "Content-type: text/html\r\n";
+
+    if (!$mail->send()){
+        echo 'Mailer Error: ' . $mail->ErrorInfo;
+    } else {
+        echo 'Message Sent!';
+    }
+
+    header("Location: ../reset-password.php?reset=success");
+
+    
 
 } else {
     header("Location: ../index.php");

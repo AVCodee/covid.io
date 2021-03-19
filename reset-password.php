@@ -16,6 +16,14 @@
             <input type="text" name="email" placeholder="Enter your email address...">
             <button type="submit" name="reset-request-submit">Send Reset Password Email</button>
         </form> 
+        <?php
+            if(isset($_GET["reset"])){
+                if($_GET["reset"] == "success"){
+                    echo '<p class="signupsuccess">Check your e-mail!</p>';
+                }
+            }
+        ?>
+
     </section>
 </body>
 
