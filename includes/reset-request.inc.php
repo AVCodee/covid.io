@@ -1,7 +1,7 @@
 <?php
 
-use PHPMailer\PHPMailer;
-use PHPMailer\SMTP;
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
 $mail = new PHPMailer();
 $mail->isSMTP();
 $mail->SMTPDebug = SMTP::DEBUG_SERVER;
@@ -60,8 +60,8 @@ if (isset($POST[reset-request-submit])){
     $mail->addAddress($to, '');
     $mail->Subject = 'Reset Your Password for Covid.io';
     $mail->AltBody = '<p>You are receiving this email because you requested a Password Reset on Covid.io. The link to reset your password is below. If you did not make this request, you can ignore this email</p>';
-    $mail->AltBody .= '<p>Here is your password reset link: </br>';
-    $mail->AltBody .= '<a href="' . $url . '">' . $url . '</a></p>';
+    //$mail->AltBody .= '<p>Here is your password reset link: </br>';
+    //$mail->AltBody .= '<a href="' . $url . '">' . $url . '</a></p>';
 
     $headers = "From: Covid.io <covidiopwdreset@gmail.com>\r\n";
     $headers .= "Reply-To: covidiopwdreset@gmail.com\r\n";

@@ -19,6 +19,7 @@
         </form>
         </div>
         <a href="register.php"class="register">Don't have an account? Sign up!</a>
+        <a href="reset-password.php">Forgot your password? </a>
 
         <?php
         if (isset($_GET["error"])) {
