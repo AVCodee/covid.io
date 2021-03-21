@@ -1,9 +1,9 @@
 <?php
 
-$serverName = "sql304.epizy.com";
-$dBUsername = "epiz_28122589";
-$dBPassword = "AD8MnZcTbN82T";
-$dBname = "epiz_28122589_covidio";
+$serverName = "sv100.ifastnet.com";
+$dBUsername = "covidioi_avela011";
+$dBPassword = "aZhrdiZv4M9QqQY";
+$dBname = "covidioi_covidio";
  
 //$serverName = "localhost";
 //$dBUsername = "root";
