@@ -13,14 +13,7 @@
                     
             ?>
 
-            <?php
-            echo "There are currently " . number_format($decoded[0]->positive) . " positive cases in the US.";
-            ?>
-            
-            
-            <h1>Covid.io is the top source for Covid- 19 Information</h1>
-            <p>Using accurate and responsive data sources, Covid.io strives to bring you a robust and simple interface to see Covid data relevant to you, as well as 
-                around the country.
+            <p>This is your profile page. 
             </p>
 
         </div>
