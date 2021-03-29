@@ -100,6 +100,10 @@ function emptyInputLogin($username, $pwd){
 	return $result;
 }
 
+function validatePwdStrength($pwd){
+	
+}
+
 function loginUser($conn, $username, $pwd){
 	$uidExists = uidExists($conn, $username, $username);
 
@@ -119,7 +123,9 @@ function loginUser($conn, $username, $pwd){
 		session_start();
 		$_SESSION["userid"] = $uidExists["usersId"];
 		$_SESSION["useruid"] = $uidExists["usersUid"];
-		header("location: ../index.php");
+		header("location: ../profile.php");
 		exit();
 	}
+
+
 }

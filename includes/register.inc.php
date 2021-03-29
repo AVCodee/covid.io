@@ -36,6 +36,9 @@ if (isset($_POST["submit"])){
 		exit();
 	}
 
+
+
+
 	createUser($conn, $name, $email, $username, $pwd);
 
 }
