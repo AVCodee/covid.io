@@ -18,7 +18,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
 
 </head>
+<style>
+        body{
+            background-image: url('https://assets.awwwards.com/awards/images/2015/04/pattern.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
 <body>
+    
     <header class ="header">
         <nav>
             <div class="wrapper">

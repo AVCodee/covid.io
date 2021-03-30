@@ -1,9 +1,15 @@
+<!doctype html>
+<html lang="en">
+
 <?php
     include_once 'header.php';
     include 'api/curlget.php';
 ?>
 
-
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <section id="mainsplash">
         <div class="container">
             <?php
@@ -12,7 +18,7 @@
                     }
                     
             ?>
-
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">    
             <p>Welcome to the Covid.io.</br>
             <p>Providing all Covid.19 live updates and reports!
             If you feel any symptoms Covid Related Get tested today at a local clinic in your area to be sure.</br>
@@ -24,7 +30,7 @@
 
         </div>
     </section>
-
+</html>
     
     <section id="latestnews">
         <div class="container">
