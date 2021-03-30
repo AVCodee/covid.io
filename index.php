@@ -15,9 +15,9 @@
 
             <p>Welcome to the Covid.io.</br>
             <p>Providing all Covid.19 live updates and reports!
-            If you feel any symptoms covid related, 
-            Get tested today at a local clinic in your area to be sure 
-            We hope everyone takes the proper precautions to ensure the safety of society 
+            If you feel any symptoms Covid Related Get tested today at a local clinic in your area to be sure.</br>
+            Feel free to Sign In or Register to Track More Relevant Data Local to You.</br>
+            We hope everyone takes the proper precautions to ensure the safety of society .</br>
             Wear a mask.
             Practice social distancing. 
             </p>
