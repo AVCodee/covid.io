@@ -18,7 +18,8 @@
     
     <h3>About Covid-19 Pandemic:</h3>
     <p>Vaccines in New York state are now available to residents aged 30 or older.<br>
-     Mask mandate is still in effect. Maximum capacity for outdoor gatherings for private residences is up to 25 peopl </p>
+     Mask mandate is still in effect. Maximum capacity for outdoor gatherings for private residences is up to 25 peopl
+    <br>Symptoms to look out for: headache, fever, cough, muscle aches and more </p>
    
     <h4>We want to know things from you</h3>
     <p>Hopefully this is the correct way we can do something with the community It's the pleasure that the user are interesting to check our webiste we would happy to hear from your
@@ -29,7 +30,7 @@
         Website Frontend Designer: Alana Crumbley<br>
         Website Backend Developer: Alvyn Velazquez<br>
         Graphic Designer & Software Tester: Scott Price</p1>
-     Symptoms to look out for: headache, fever, cough, muscle aches and more </h3>
+     
     </p>
     </div>
 </body>
