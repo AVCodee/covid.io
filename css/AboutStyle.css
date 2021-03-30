@@ -1,0 +1,51 @@
+.wrapper{
+    width:100%;
+}
+h1{
+    color:hsl(37,100%,50%);
+    font-size:50px;
+    margin:0;
+}
+h2{
+    color:hsl(37,100%,50%);
+    font-size:30px;
+    margin:0;
+}
+
+h3{
+    color:hsl(37,100%,50%);
+    font-size:30px;
+    margin:0;
+}
+
+h4{
+    color:hsl(37,100%,50%);
+    font-size:30px;
+    margin:0;
+}
+h5{
+    color:hsl(37,100%,50%);
+    font-size:30px;
+    margin:0;
+}
+
+p{
+    color:hsl(233,26%,24%);
+    font-family: 'Public Sans', sans-serif;
+    font-size:25px;
+    margin:0;
+    text-align: left;
+    background-color: hsl(190,96%,48%);
+    padding: 30px 80px 30px;
+}
+p1{
+    color:hsl(233,26%,24%);
+    font-family: 'Public Sans', sans-serif;
+    font-size:25px;
+    margin:0;
+    text-align: center;
+    background-color:hsl(190,96%,48%);
+}
+.column{
+    width: 50%;
+}
