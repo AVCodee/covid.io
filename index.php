@@ -14,8 +14,13 @@
             ?>
 
             <p>This is your profile page. 
-            1 word
-    
+            Welcome to the Covid.io 
+            Providing all Covid.19 live updates and reports!
+            If you feel any symptoms covid related, 
+            Get tested today at a local clinic in your area to be sure 
+            We hope everyone takes the proper precautions to ensure the safety of society 
+            Wear a mask 
+            Practice social distancing 
             </p>
 
         </div>
