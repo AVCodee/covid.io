@@ -16,4 +16,5 @@
 
     curl_close($ch);
 
+    //https://www.vaccinespotter.org/api/v0/states/NY.json
     
