@@ -1,6 +1,6 @@
 <?php
     $ch = curl_init();
-    $api = "https://api.covidtracking.com/v1/us/current.json";
+    $api = "https://www.vaccinespotter.org/api/v0/states/NY.json";
     
     curl_setopt($ch, CURLOPT_URL, $api);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -12,6 +12,7 @@
     }
     else {
         $decoded = json_decode($resp);
+        echo "There are currently " . $decoded[0];
     }
 
     curl_close($ch);
