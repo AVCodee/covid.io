@@ -79,11 +79,21 @@
         <div class="form-group">
         <form action="includes/register.inc.php" method="post">
             <input type="text" class="form-control" name="name" placeholder="Full Name" />
+</div>
+<div class="form-group">
             <input type="text" class="form-control" name="email" placeholder="Enter a Valid Email" />
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+</div>
+<div class="form-group">
             <input type="text" class="form-control" name="uid" placeholder="Username" />
+</div>
+<div class="form-group">
             <input type="password" class="form-control" name="pwd" placeholder="Password" />
+</div>
+<div class="form-group">
             <input type="password" class="form-control" name="pwdrepeat" placeholder="Repeat Password" />
-            <button type="submit" name="submit">Sign Up</button>
+</div>
+            <button type="submit" class="btn btn-info" name="submit">Sign Up</button>
         </form>
         </div>
         <?php
@@ -93,6 +103,7 @@
             }
         }
         ?>
+        <br>
         <a href="login.php" class="alreadyhave">Already have an account? Log in.</a>
         <a href="reset-password.php">Forgot your password? </a>
         <?php
