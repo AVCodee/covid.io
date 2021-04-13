@@ -93,7 +93,7 @@
             }
         }
         ?>
-        <a href="login.php"class="alreadyhave">Already have an account? Log in.</a>
+        <a href="login.php" class="alreadyhave">Already have an account? Log in.</a>
         <a href="reset-password.php">Forgot your password? </a>
         <?php
         if (isset($_GET["error"])) {
@@ -121,7 +121,7 @@
     
         }
         ?>
-          <p class="copyright text-muted">Copyright &copy; Your Website 2020</p>
+      
 
 
       </div>
