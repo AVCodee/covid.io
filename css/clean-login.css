@@ -1,0 +1,94 @@
+
+form {
+    border: 3px solid #f1f1f1;
+  }
+  body {font-family: Arial, Helvetica, sans-serif;}
+  form {border: 15px solid gray;
+    margin: 80px auto;
+    width: 800px;
+    }
+title{
+    margin: -20px -20px 21px;
+    text-align: center;
+}
+
+  .container{
+    margin: 50px auto;
+    width: 640px;
+  }
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 20px 25px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  button {
+    background-color: #212529;
+    color: white;
+    padding: 18px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+  h2{
+    color:#212529;
+    font-size:50px;
+    margin: auto;  
+    padding: 100px;
+    text-align: center;
+    border-radius: 30px ;
+    background:#fff;
+  }
+  .register{
+    text-decoration: none;
+    color: #212529;
+    padding: 5px 10px;
+    margin:8px,0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    vertical-align: bottom;
+  }
+  .alreadyhave{
+    text-decoration: none;
+    color: #212529;
+    padding: 5px 10px;
+    margin:8px,0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    vertical-align: bottom;
+  }
+  .btn {
+    font-size: 14px;
+    font-weight: 800;
+    padding: 15px 25px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  .btn-primary {
+    background-color: #0085A1;
+    border-color: #0085A1;
+  }
+  
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    color: #fff;
+    background-color: #00657b !important;
+    border-color: #00657b !important;
+  }
+  
+  .btn-lg {
+    font-size: 16px;
+    padding: 25px 35px;
+  }
+  
