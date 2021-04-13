@@ -1,3 +1,6 @@
+<?php
+  session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -41,11 +44,20 @@
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="login.php">Log-In</a>
-          </li>
+          <?php
+                    if (isset($_SESSION["useruid"])) {
+                        echo "<a href='profile.php'class='nav-item'>My Profile</a></li>";
+                        echo "<a href='includes/logout.inc.php'class='nav-item'>Log Out</a></li>";
+                    }
+                    else {
+                        echo "<a href='login.php'class='nav-item'>Login</a></li>";
+                        echo "<a href='register.php'class='nav-item'>Register</a></li>";
+                    }
+                    ?>
+         
           <li class="nav-item">
             <a class="nav-link" href="info.html">Covid Info</a>
+          </li>
         </ul>
       </div>
     </div>
