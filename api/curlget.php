@@ -12,8 +12,27 @@
     }
     else {
         $decoded = json_decode($resp);
-        print_r($decoded->features[0]->properties->id);
+        $x=0;
+
+        foreach ($decoded->features as $value){
+            if ($decoded->features[$x]->properties->postal_code != 12901){
+                $x+=1;
+            }
+            else{
+                print_r($decoded->features[$x]->properties->city);
+                echo "\n";
+                echo "This one";
+                break;
+            }
+        }
+        
+       
     }
+        
+        
+    
+        
+    
 
     curl_close($ch);
 
