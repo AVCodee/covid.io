@@ -46,7 +46,7 @@
           <a class="nav-link" href="login.php">Log-In</a>
         </li>
         <li class="nav-item">
-            <a class="nav-linke" href ="info.php">Covid Info</a>
+            <a class="nav-link" href ="info.php">Covid Info</a>
         </li>  
       </ul>
     </div>
@@ -80,7 +80,7 @@
             <input type="password" name="pwd" placeholder="Password" />
             <button type="submit" name="submit">Log In</button>
             <button type="register.php">Sign up</button><br>
-            <button type="reset-password.php">Forgot password </button>
+            <a href="reset-password.php" button type="reset-password.php">Forgot password </button>
         </form>
         </div>
         
