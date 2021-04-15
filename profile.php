@@ -111,7 +111,6 @@ include 'api/curlget.php';
                 </div>
                     <?php
                     $name = $_POST["name"];
-                    print $name;
                     echo"<br>";
                     
                     foreach ($decoded->features as $value){
