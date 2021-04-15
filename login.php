@@ -37,16 +37,16 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
+          <a class="nav-link" href="about.php">About</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="login.php">Log-In</a>
         </li>
         <li class="nav-item">
-            <a class="nav-linke" href ="info.html">Covid Info</a>
+            <a class="nav-linke" href ="info.php">Covid Info</a>
         </li>  
       </ul>
     </div>

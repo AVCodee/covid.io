@@ -46,17 +46,14 @@
           </li>
           <?php
                     if (isset($_SESSION["useruid"])) {
-                        echo "<a href='profile.php'class='nav-item'>My Profile</a></li>";
-                        echo "<a href='includes/logout.inc.php'class='nav-item'>Log Out</a></li>";
+                        echo "<li class='nav-item'> <a class='nav-link' href='profile.php'>My Profile</a></li>";
+                        echo "<li class='nav-item'> <a class='nav-link' href='includes/logout.inc.php'>Log Out</a></li>";
                     }
                     else {
                         echo "<li class='nav-item'> <a class='nav-link' href='login.php'>Login</a></li>";
                         echo "<li class='nav-item'> <a class='nav-link' href='register.php'>Register</a></li>";
                     }
                     ?>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
           <li class="nav-item">
               <a class="nav-linke" href ="info.php">Covid Info</a>
           </li>

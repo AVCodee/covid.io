@@ -44,13 +44,10 @@
             <a class="nav-link" href="index.php">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="about.php">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-linke" href ="info.html">Covid Info</a>
+              <a class="nav-linke" href ="info.php">Covid Info</a>
           </li>
         </ul>
       </div>

@@ -45,8 +45,8 @@ include 'api/curlget.php';
           <li>
           <?php
                     if (isset($_SESSION["useruid"])) {
-                        echo "<a href='profile.php'class='nav-item'>My Profile</a></li>";
-                        echo "<a href='includes/logout.inc.php'class='nav-item'>Log Out</a></li>";
+                        echo "<li class='nav-item'> <a class='nav-link' href='profile.php'>My Profile</a></li>";
+                        echo "<li class='nav-item'> <a class='nav-link' href='includes/logout.inc.php'>Log Out</a></li>";
                     }
                     else {
                         echo "<li class='nav-item'> <a class='nav-link' href='login.php'>Login</a></li>";
@@ -102,10 +102,19 @@ include 'api/curlget.php';
                     <p class="font-italic mb-0">Lives in Plattsburgh, NY</p>
                     <p style="color:green" class="font-italic mb-0">Last Tested: Negative</p><br>
                     <h5 class="font-bold mb-0">Nearest Vaccine Center</h5>
+                    <form method="post" action="#">
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name" placeholder="Enter Zip Code or City" />
+                        <button>Search</button>
+                        <br>
+                </form>
                     <?php
+                    $name = $_POST["name"];
+                    print $name;
+                    echo"<br>";
                     
                     foreach ($decoded->features as $value){
-            if ($decoded->features[$x]->properties->postal_code != 12901){
+            if ($decoded->features[$x]->properties->postal_code != $name){
                 $x+=1;
             }
             else{
