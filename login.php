@@ -2,7 +2,7 @@
   session_start();
 ?>
 <head>
-<head>
+
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -79,7 +79,7 @@
             <input type="text" name="uid" placeholder="Username/Email" />
             <input type="password" name="pwd" placeholder="Password" />
             <button type="submit" name="submit">Log In</button>
-            <button type="register.php">Sign up</button><br>
+            <a href="register.php">Sign up<br>
             <a href="reset-password.php" button type="reset-password.php">Forgot password </button>
         </form>
         </div>
