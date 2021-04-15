@@ -108,26 +108,27 @@ include 'api/curlget.php';
                         <button>Search</button>
                         <br>
                 </form>
+                </div>
                     <?php
                     $name = $_POST["name"];
                     print $name;
                     echo"<br>";
                     
                     foreach ($decoded->features as $value){
-            if ($decoded->features[$x]->properties->postal_code != $name){
-                $x+=1;
-            }
-            else{
-                print_r($decoded->features[$x]->properties->city);
-                echo "<br>";
-                print_r($decoded->features[$x]->properties->name);
-                echo "<br>";
-                print_r($decoded->features[$x]->properties->address);
-                echo "<br>";
-                $url=$decoded->features[$x]->properties->url;
+                        if ($decoded->features[$x]->properties->postal_code != $name){
+                            $x+=1;
+                        }
+                        else{
+                            print_r($decoded->features[$x]->properties->city);
+                            echo "<br>";
+                            print_r($decoded->features[$x]->properties->name);
+                            echo "<br>";
+                            print_r($decoded->features[$x]->properties->address);
+                            echo "<br>";
+                            $url=$decoded->features[$x]->properties->url;
                 
-                echo "<a href='$url'><button>Schedule Your Vaccination Today!</button></a>";
-                break;
+                            echo "<a href='$url'><button>Schedule Your Vaccination Today!</button></a>";
+                            break;
             }
         }
                 ?>
