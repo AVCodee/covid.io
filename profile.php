@@ -29,7 +29,7 @@ include 'api/curlget.php';
 </head>
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Covid.io</a>
+      <a class="navbar-brand" href="index.php">Covid.io</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -64,7 +64,7 @@ include 'api/curlget.php';
   </nav>
 
 <!-- Page Header -->
-<header class="masthead">
+<header class="masthead" style="background-image: url('img/nurses.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
@@ -81,7 +81,7 @@ include 'api/curlget.php';
     <div class="container">
         <!-- Profile widget -->
         <div class="container">
-            <div class="px-4 pt-0 pb-4 cover">
+            <div class="d-flex justify-content-center">
                 <div class="media align-items-end profile-head">
                     <div class="profile mr-3"><img src="img/profileplaceholder.png" alt="..." width="130" class="rounded mb-2 img-thumbnail"><a href="#" class="btn btn-outline-dark btn-sm btn-block">Edit profile</a></div>
                     <div class="media-body mb-5 text-white">
@@ -109,6 +109,7 @@ include 'api/curlget.php';
                         <br>
                 </form>
                 </div>
+                <div class = "float-left">
                     <?php
                     $name = $_POST["name"];
                     echo"<br>";
@@ -125,12 +126,30 @@ include 'api/curlget.php';
                             print_r($decoded->features[$x]->properties->address);
                             echo "<br>";
                             $url=$decoded->features[$x]->properties->url;
+                            $add=$decoded->features[$x]->properties->address;
                 
-                            echo "<a href='$url'><button>Schedule Your Vaccination Today!</button></a>";
-                            break;
+                            echo "<a href='$url'><button>Schedule Vaccination Here</button></a>";
+                            echo "<br>";
+                            $x+=1;
+
+                             
             }
         }
-                ?>
+        
+                ?> 
+                </div>
+                <div class = "float-right">
+                <iframe
+                width="450"
+                height="450"
+                style="border:0"
+                loading="lazy"
+                allowfullscreen
+                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDgihiQwljxcmNmzv8kJ_m6WaHK8ARy84c
+                  &q=<?php print $add ?>";
+                </iframe>
+      </div>
+                            
             
         
                 </div>
