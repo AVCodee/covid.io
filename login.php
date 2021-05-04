@@ -79,8 +79,10 @@
             <input type="text" name="uid" placeholder="Username/Email" /><br>
             <input type="password" name="pwd" placeholder="Password" /><br>
             <button type="submit" name="submit">Log In</button>
-            <button type="register.php">Sign up</button><br>
-            <button type="reset-password.php">Forgot password </button>
+        <form action="register.php">
+            <button type="register" name="submit">register</button><br>
+        <form action="reset-password.php">
+            <button type="reset-password" name="submit">Forgot password</button>
         </form>
         </div>
         
