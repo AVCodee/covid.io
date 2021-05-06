@@ -139,15 +139,22 @@ include 'api/curlget.php';
                 ?> 
                 </div>
                 <div class = "float-right">
-                <iframe
-                width="450"
-                height="450"
-                style="border:0"
-                loading="lazy"
-                allowfullscreen
-                src="https://www.google.com/maps/embed/v1/place?key=AIzaSyDgihiQwljxcmNmzv8kJ_m6WaHK8ARy84c
-                  &q=<?php print $add ?>";
-                </iframe>
+                <script
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgihiQwljxcmNmzv8kJ_m6WaHK8ARy84c&map_ids=55e50092df8f4da0&callback=initMap">
+</script>
+                <script>
+                // Initialize and add the map
+                  function initMap() {
+                    const map = new google.maps.Map(document.getElementById("map"), {
+                      zoom: 4
+                    });
+                    // The marker, positioned at Uluru
+                    const marker = new google.maps.Marker({
+                      position: $add,
+                      map: map,
+                    });
+}
+                </script>
       </div>
                             
             
