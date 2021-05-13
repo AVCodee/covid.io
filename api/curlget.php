@@ -13,9 +13,6 @@
     else {
         $decoded = json_decode($resp);
         $x=0;
-        
-        
-        
        
     }
         
