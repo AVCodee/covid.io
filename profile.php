@@ -219,9 +219,11 @@ include 'api/curlget.php';
         }
         
         
-                ?> 
-     <iframe src="testmap.php" width="400" height="200">
-        /iframe>
+                ?>
+                <? if ($decoded->features[$x]->properties->postal_code = 12901){
+     echo '<iframe src="testmap.php" width="400" height="200">
+        /iframe>';}
+        ?>
      
 </html>
 

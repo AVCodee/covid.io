@@ -51,9 +51,7 @@
                         echo "<li class='nav-item'> <a class='nav-link' href='register.php'>Register</a></li>";
                     }
                     ?>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
+          
         </ul>
       </div>
     </div>
@@ -91,8 +89,8 @@
         <p>Hopefully this is the correct way we can do something with the community It's the pleasure that the user are interesting to check our webiste we would happy to hear from your
         what kind of the informations you are looking for about the Covid-19.</p>
         <h3>Our team members for this project</h3>
-          <p>Developer: Hanbo Tan<br>
-              Website Frontend Designer: Alana Crumbley<br>
+          <p>Documentation Drafter: Alana Crumbley<br>
+              Website Frontend Designer: Hanbo Tan<br>
               Website Backend Developer: Alvyn Velazquez<br>
               Graphic Designer & Software Tester: Scott Price
           </p>
@@ -105,7 +103,7 @@
   <!-- Footer -->
   <footer>
     <div class="container">
-          <p class="copyright text-muted">Copyright &copy; Your Website 2021</p>
+          <p class="copyright text-muted"> Covid.io 2021</p>
         </div>
       </div>
     </div>
