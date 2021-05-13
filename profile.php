@@ -166,7 +166,7 @@ include 'api/curlget.php';
         <div class="container">
             <div class="d-flex justify-content-center">
                 <div class="media align-items-end profile-head">
-                    <div class="profile mr-3"><img src="img/profileplaceholder.png" alt="..." width="130" class="rounded mb-2 img-thumbnail"><a href="#" class="btn btn-outline-dark btn-sm btn-block">Edit profile</a></div>
+                    <div class="profile mr-3"><img src="img/profileplaceholder.png" alt="..." width="130" class="rounded mb-2 img-thumbnail"></div>
                     <div class="media-body mb-5 text-white">
                
 

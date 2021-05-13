@@ -14,7 +14,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Covid.io-About Us</title>
+  <title>Covid.io-Login</title>
 
 
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -25,7 +25,7 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
 
-  <link href="css/clean-login.css" rel="stylesheet">
+  <link href="css/clean-blog.min.css" rel="stylesheet">
 
 </head>
 
@@ -48,7 +48,7 @@
             <a class="nav-link" href="about.php">About</a>
           </li>
           <li class="nav-item">
-              <a class="nav-linke" href ="info.php">Covid Info</a>
+              <a class="nav-link" href ="info.php">Covid Info</a>
           </li>
         </ul>
       </div>
@@ -76,13 +76,16 @@
         <h2>Covid.io Login</h2>
         <div class="form-group">
         <form action="includes/login.inc.php" method="post">
-            <input type="text" name="uid" placeholder="Username/Email" /><br>
-            <input type="password" name="pwd" placeholder="Password" /><br>
-            <button type="submit" name="submit">Log In</button>
-        <form action="register.php">
-            <button type="register" name="submit">register</button><br>
-        <form action="reset-password.php">
-            <button type="reset-password" name="submit">Forgot password</button>
+            <input type="text" class="form-control" name="uid" placeholder="Username/Email" />
+          </div>
+          <div class="form-group">
+            <input type="password" class="form-control" name="pwd" placeholder="Password" />
+          </div>
+          <br>
+            <button type="submit" name="submit">Log In</button><br>
+        <a href="register.php" class="newaccount">Need an account? Register here!</a>
+        <br>
+        <a href="reset-password.php" >Forgot Your Password?</a>
         </form>
         </div>
         

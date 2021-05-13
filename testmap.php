@@ -84,7 +84,16 @@
         });
       }
       const styles = {
-        default: [],
+        default: [{
+            featureType: "poi.business",
+            stylers: [{ visibility: "off" }],
+          },
+          {
+            featureType: "transit",
+            elementType: "labels.icon",
+            stylers: [{ visibility: "off" }],
+          },
+        ],
         hide: [
           {
             featureType: "poi.business",
