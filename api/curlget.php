@@ -1,6 +1,6 @@
 <?php
     $ch = curl_init();
-    $api = "https://www.vaccinespotter.org/api/v0/states/NY.json";
+    $api = "https://archive.vaccinespotter.org/api/v0/states/NY.json";
     
     curl_setopt($ch, CURLOPT_URL, $api);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
